@@ -1,8 +1,4 @@
-class Greeting
-{
-public void greet()
-{
-System.out.println("Hi,Good Evening");
-}
-}
-
+public class Greeting{
+public void greet(){
+System.out.println("hi");
+}}

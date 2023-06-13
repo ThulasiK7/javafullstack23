@@ -1,33 +1,12 @@
-class Animal
-{
-public void move()
-{
-System.out.println("Call from animal class");
-}
-}
-class Wild extends Animal
-{
-public void move()
-{
-System.out.println("Call from wild class");
-}
-}
-class Pet extends Animal
-{
-public void move()
-{
-System.out.println("Call from pet class");
-}
-}
-class TestAnimal
-{
-public static void main(String args[])
-{
+cass Animal{void move(){System.out.println("Animals ");}}
+class Wild extends Animal{void move(){System.out.println("wild");}}
+class Pet extends Animal{void move(){System.out.println("pet");}}
+
+class TestAnimal{
+public static void main(String args[]){
 Animal a=new Animal();
-Animal w=new Wild();
-Animal p=new Pet();
+Animal b=new Wild();
+Animal c=new Pet();
 a.move();
-w.move();
-p.move();
-}
-}
+b.move();c.move();
+}}

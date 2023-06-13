@@ -1,5 +1,2 @@
-public class AB
-{
-
-
+public class AB{
 }

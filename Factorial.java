@@ -1,20 +1,11 @@
 import java.util.*;
-class Factorial
-{
-public static int calculateFactorial(int n)
-{
-if(n==0)
-return 1;
-else
-return n * calculateFactorial(n-1);
+class Factorial{
+public static int calfact(int n){
+if(n==0)return 1;
+else return n*calfact(n-1);
 }
-public static void main(String args[])
-{
+public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
-int inputNum=sc.nextInt();
-if(inputNum<0)
-System.out.println("INVALID");
-else
-System.out.println(calculateFactorial(inputNum));
-}
-}
+int i=sc.nextInt();
+if(i>=0) System.out.println(calfact(i));
+else System.out.println("INVALID");}}
